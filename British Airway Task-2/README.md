@@ -156,7 +156,7 @@ print('F1 Score:', f1_score(y_test, y_pred_xgb))
 print('AUC Score:', roc_auc_score(y_test, y_pred_xgb))
 ```
 
-![Mutal Score and best performance metrics](British_airways/British Airway Task-2/British Airway Task-2/Mutal Score and best performance metrics.PNG)
+![Mutal Score and best performance metrics](British Airway Task-2/Mutal Score and best performance metrics.PNG)
 
 ### 7. Feature Importance
 We analyze the feature importance to understand which features contribute most to the prediction.
@@ -175,7 +175,7 @@ plt.xticks(range(X.shape[1]), features[indices], rotation=90)
 plt.show()
 ```
 
-![Important features and best performance metrics](British_airways/British Airway Task-2/Important features and best performance metrics.PNG)
+![Important features and best performance metrics](British Airway Task-2/Important features and best performance metrics.PNG)
 
 ## Conclusion
 This project successfully builds a predictive model to understand factors influencing British Airways customer bookings. The XGBoost model performed best in terms of accuracy, precision, f1 score, and AUC score. The most important features influencing the booking completion are `purchase_lead`, `length_of_stay`, `flight_hour`, `flight_day`, `route`, and `booking_origin`.
